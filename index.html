@@ -204,7 +204,7 @@
    asiannh: -107,
    nhopinh: -7,
    othernh: 27,
-   twoplusnhchg: 185
+   twoplusnh: 185
  },
  {
    CD113: '04',
@@ -1696,7 +1696,7 @@
 
       brewH.setSeries(valuesH);
       brewH.setNumClasses(5);
-      brewH.classify("jenks")
+      brewH.classify("quantile")
       brewH.setColorCode("RdYlBu")      
 
       function mapstyleH(feature) {
